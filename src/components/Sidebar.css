@@ -1,0 +1,27 @@
+.sidebar {
+  flex: 0.3;
+  max-width: 300px; 
+  margin-left: 10px;
+
+}
+
+.sidebar_compose {
+    padding: 10px !important;
+    border-radius: 30px !important;
+    text-transform: capitalize !important;
+    color: gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 600 !important;
+    margin: 15px 20px !important;
+    width: 150px !important;
+}
+
+.sidebar_compose:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidebar_footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

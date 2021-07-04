@@ -1,0 +1,27 @@
+.section {
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin-right: 5px;
+    color: gray;
+   border-width: 0px !important;
+}
+
+.section--active {
+  border-width: 3px !important;
+
+}
+
+.section_icon {
+    padding: 5px !important;
+}
+
+.section:hover {
+    background-color: whitesmoke;
+}
+
+.section > h4 {
+    font-weight: 400;
+}

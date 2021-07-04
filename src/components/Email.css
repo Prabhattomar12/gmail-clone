@@ -1,0 +1,79 @@
+.email {
+    flex: 1;
+    margin: 20px;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+
+.email_tools {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+email_body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.email_body_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   height: 50px;
+   background-color: white;
+   border-bottom: 1px solid gray;
+   padding: 5px 10px;
+}
+
+.email_body_header_left {
+    display: flex;
+    align-items: center;
+}
+
+.email_body_header_left > h3 {
+    margin-right: 10px;
+    font-weight: 550;
+    margin-left: 10px;
+}
+
+.email_body_header_left > p {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.email_body_header_right {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.email_body_content {
+    margin: 40px;
+    background-color: white;
+    overflow-y: scroll;
+    border-radius: 10px;
+    height: 70vh;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+.email_body_content > h4 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-synthesis: 1.1rem;
+    font-weight: 500;
+}
+
+.email_body_content > p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    text-indent: 10px;
+}
